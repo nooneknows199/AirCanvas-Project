@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script");
+.glass-panel {
+  color: #fff;
+  margin: 150px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 45px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+}
+
+.glass-button {
+  display: inline-block;
+  padding: 14px 42px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 35px;
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.glass-button:hover {
+  background-color: rgba(255,255,255,0.2);
+  color:#37474F;
+}
+
+/* Extra styles for demo */
+/* Article:  https://superdevresources.com/glassmorphism-ui-css/ */
+body {
+  background: url(https://image.freepik.com/free-vector/modern-dark-abstract-background-with-shadows-blue-lines_156943-80.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.glass-panel {  
+  max-width: 550px;
+  height: 300px;
+}
+
+h1, h1 a {
+  min-height: 190px;
+  width: 90%;
+  font-size: 74px;
+  font-family: 'Bad Script', cursive;
+  max-width: 700px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 40px;
+  color: rgba(255,255,255,0.8);
+}
